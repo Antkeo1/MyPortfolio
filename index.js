@@ -4,7 +4,8 @@ $(document).ready(function () {
 // get aboutMeContent, then hide it
 $('#aboutMeContent').hide()
 $('#contactContent').hide()
-$('#resumeContent').hide();
+$('#resumeContent').hide()
+$('#projectContent').hide()
 
 // get home id, when clicked
 $("#home").click(function() {
@@ -15,6 +16,7 @@ $("#home").click(function() {
   // get contactContent and hide it
   $('#contactContent').hide();
   $('#resumeContent').hide();
+  $('#projectContent').hide()
 });
 
 // get about id when clicked
@@ -23,7 +25,16 @@ $("#about").click(function() {
   $('#homeContent').hide();
   $('#contactContent').hide();
   $('#resumeContent').hide();
+  $('#projectContent').hide()
 
+});
+
+$("#project").click(function() {
+  $('#aboutMeContent').hide();
+  $('#homeContent').hide();
+  $('#contactContent').hide();
+  $('#resumeContent').hide();
+  $('#projectContent').show()
 });
 
 $("#resume").click(function() {
@@ -31,6 +42,7 @@ $("#resume").click(function() {
   $('#homeContent').hide();
   $('#contactContent').hide();
   $('#resumeContent').show();
+  $('#projectContent').hide()
 });
 
 
@@ -39,4 +51,5 @@ $("#contact").click(function() {
   $('#homeContent').hide();
   $('#aboutMeContent').hide();
   $('#resumeContent').hide();
+  $('#projectContent').hide()
 });
