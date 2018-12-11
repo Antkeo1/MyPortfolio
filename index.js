@@ -29,20 +29,19 @@ $('#about').click(function () {
 })
 
 $('#project').click(function () {
-  ('#projectContent').hide()
   $('#homeContent').hide()
   $('#contactContent').hide()
   $('#resumeContent').hide()
   $('#projectContent').show()
 })
 
-$('#resume').click(function () {
+/* $('#resume').click(function () {
   $('#aboutMeContent').hide()
   $('#homeContent').hide()
   $('#contactContent').hide()
   $('#resumeContent').show()
   $('#projectContent').hide()
-})
+}) */
 
 $('#contact').click(function () {
   $('#contactContent').show()
