@@ -32,6 +32,7 @@ $('#project').click(function () {
   $('#homeContent').hide()
   $('#contactContent').hide()
   $('#resumeContent').hide()
+  $('#aboutMeContent').hide()
   $('#projectContent').show()
 })
 
