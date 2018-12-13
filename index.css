@@ -23,3 +23,17 @@ h4 {
 p {
   color: black;
 }
+
+body {
+  background-color: grey;
+}
+
+.darkBG,
+.darkerBG,
+.darkestBG {
+  background-color: #8064A2;
+}
+
+#contactContent {
+  float: center;
+}
